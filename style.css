@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  button{
+    padding: 8px;
+    width: 100px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-out;
+  }
+  
+  button:hover{
+    transform: scale(1.05);
+  }
+  
+  .container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .pages {
+  
+    box-sizing: border-box; 
+  }
+  
+  .page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.7s;
+    color: white;
+  }
+  
+  .one{
+    background:url(./img/tuscanycountryside.jpg);
+  }
+  
+  .two{
+    background:url(./img/tuscany-grape-field-nature-51947.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  
+  .three{
+    background:url(./img/david.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-position: top;
+  }
+  
+  .four{
+    background:url(./img/videowineglass.mp4);
+    
+  }
